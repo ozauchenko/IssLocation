@@ -1,0 +1,7 @@
+.location-info-container {
+    display: flex;
+    margin: 20px;
+}
+.location-info-container > * {
+    margin: 10px;
+}
