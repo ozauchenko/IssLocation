@@ -31,7 +31,7 @@ export const LocationTracker = () => {
     useEffect(() => {
         const getLocation = async () => {
             try {
-            let response = await fetch('https://localhost:44325/api/issLocation/location');
+                let response = await fetch('https://localhost:7077/api/issLocation/location');
             const data = await response.json();
                 setState({
                     location: data,
